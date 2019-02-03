@@ -1,24 +1,7 @@
-# README
+This is a Rails app that, when running on a local server, can connect to Ruby's FTP class. 
+It allows a user to upload a file or image to whatever hosting service they add their credentials to.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To Use:
+In the Forms Controller, replace ENV variables with your own FTP credentials.
+Run the app on your local server.
+Upload a file using the form.

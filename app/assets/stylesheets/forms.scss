@@ -17,10 +17,10 @@
       input {
         font-family: inherit;
         margin: 0 auto;
-        margin-top: 25px;
 
         &#content {
           padding-left: 75px;
+          margin-top: 25px;
         }
 
         &.upload-button {
@@ -30,11 +30,16 @@
           border: none;
           border-radius: 3px;
           font-size: 15px;
+          margin-top: 25px;
 
           &:hover {
             background-color: #e9ebee;
           }
         }
+      }
+
+      label {
+        margin-top: 25px;
       }
     }
   }
